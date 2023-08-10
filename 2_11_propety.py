@@ -3,7 +3,7 @@ class Persona():
     self.__nombre = nombre
     self._edad = edad
     
-  @property # con esto le quitamos los parentesis en la linea 19 a get_nombre() si no nos tira error, y funciona incluso poniendo metodo super privado ejemplo __nombre
+  @property # con esto le quitamos los parentesis en la linea 19 a get_nombre() si no lo hacemos, nos tira error, y funciona incluso poniendo metodo super privado ejemplo __nombre
   def nombre(self):
     return self.__nombre
 
